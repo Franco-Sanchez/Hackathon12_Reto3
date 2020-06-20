@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}    
+
+.contenedorModal {
+    width: 500px;
+    margin: 0 auto;
+    display: none;
+    border: 1px solid #3498db;
+}
+
+header {
+    display: flex;
+    background-color: #8e44ad;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+span {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+span:hover {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #3498db;
+}
+
+input {
+    padding: 10px;
+    border: none;
+}
+
+input[type=text] {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+input[type=email] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    background-color: #c0392b;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
