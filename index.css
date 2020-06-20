@@ -19,7 +19,8 @@ button {
     width: 500px;
     margin: 0 auto;
     display: none;
-    border: 1px solid #3498db;
+    box-shadow: -4px -2px 41px -8px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 10px 10px;
 }
 
 header {
@@ -29,6 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 span {
@@ -45,6 +47,7 @@ form {
     display: flex;
     flex-direction: column;
     background-color: #3498db;
+    border-radius: 0 0 10px 10px;
 }
 
 input {
@@ -52,14 +55,14 @@ input {
     border: none;
 }
 
-input[type=text] {
-    margin-top: 10px;
-    margin-bottom:10px;
+form input:nth-child(1) {
+    margin: 10px;
+    border-radius: 10px;
 }
 
-input[type=email] {
-    margin-top: 10px;
-    margin-bottom: 10px;
+form input:nth-child(2), form input:nth-child(3) {
+    margin: 0 10px 10px 10px;
+    border-radius: 10px;
 }
 
 input[type=button] {
@@ -67,4 +70,5 @@ input[type=button] {
     cursor: pointer;
     color: white;
     font-size: 1rem;
+    border-radius: 0 0 10px 10px;
 }
